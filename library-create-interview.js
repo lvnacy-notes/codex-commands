@@ -1,6 +1,6 @@
-import { InterviewModal } from '../../codex/module.library/lib/modals/InterviewModal.js';
-import { Interview } from '../../codex/module.library/lib/objects/Interview.js';
-import { Log } from '../../codex/utils/logger.js';
+import { InterviewModal } from '../.codex/module.library/lib/modals/InterviewModal.js';
+import { Interview } from '../.codex/module.library/lib/objects/Interview.js';
+import { Log } from '../.codex/utils/logger.js';
 
 const REQUIRED_CITATION_FIELDS = ['interviewee', 'year'];
 

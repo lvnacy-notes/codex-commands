@@ -1,6 +1,6 @@
-import { ThesisModal } from '../../codex/module.library/lib/modals/ThesisModal.js';
-import { Thesis } from '../../codex/module.library/lib/objects/Thesis.js';
-import { Log } from '../../codex/utils/logger.js';
+import { ThesisModal } from '../.codex/module.library/lib/modals/ThesisModal.js';
+import { Thesis } from '../.codex/module.library/lib/objects/Thesis.js';
+import { Log } from '../.codex/utils/logger.js';
 
 const REQUIRED_CITATION_FIELDS = [
 	'authors',

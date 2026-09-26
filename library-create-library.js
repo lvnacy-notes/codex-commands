@@ -1,7 +1,7 @@
-import { Library } from '../../codex/module.library/lib/objects/Library.js';
-import { LibraryModal } from '../../codex/module.library/lib/modals/LibraryModal.js';
-import { Glossary, buildGlossaryBaseContent } from '../../codex/module.library/lib/objects/Glossary.js';
-import { Log } from '../../codex/utils/logger.js';
+import { Library } from '../.codex/module.library/lib/objects/Library.js';
+import { LibraryModal } from '../.codex/module.library/lib/modals/LibraryModal.js';
+import { Glossary, buildGlossaryBaseContent } from '../.codex/module.library/lib/objects/Glossary.js';
+import { Log } from '../.codex/utils/logger.js';
 
 // checkCallback (not callback) so the command is only enabled from within a
 // resolvable folder -- checking=true just resolves the folder and returns a

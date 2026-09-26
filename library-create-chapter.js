@@ -1,6 +1,6 @@
-import { ChapterModal } from '../../codex/module.library/lib/modals/ChapterModal.js';
-import { Chapter } from '../../codex/module.library/lib/objects/Chapter.js';
-import { Log } from '../../codex/utils/logger.js';
+import { ChapterModal } from '../.codex/module.library/lib/modals/ChapterModal.js';
+import { Chapter } from '../.codex/module.library/lib/objects/Chapter.js';
+import { Log } from '../.codex/utils/logger.js';
 
 const REQUIRED_CITATION_FIELDS = [
 	'authors',

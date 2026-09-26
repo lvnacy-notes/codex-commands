@@ -1,9 +1,9 @@
-import { Story, sceneTemplateSuffixForStage } from '../../codex/module.creative/lib/objects/Story.js';
-import { StoryModal } from '../../codex/module.creative/lib/modals/StoryModal.js';
-import { Manuscript } from '../../codex/module.creative/lib/objects/Manuscript.js';
-import { StoryArchive } from '../../codex/module.creative/lib/objects/StoryArchive.js';
-import { getPriorStage } from '../../codex/module.creative/core/manuscriptPipelines.js';
-import { Log } from '../../codex/utils/logger.js';
+import { Story, sceneTemplateSuffixForStage } from '../.codex/module.creative/lib/objects/Story.js';
+import { StoryModal } from '../.codex/module.creative/lib/modals/StoryModal.js';
+import { Manuscript } from '../.codex/module.creative/lib/objects/Manuscript.js';
+import { StoryArchive } from '../.codex/module.creative/lib/objects/StoryArchive.js';
+import { getPriorStage } from '../.codex/module.creative/core/manuscriptPipelines.js';
+import { Log } from '../.codex/utils/logger.js';
 
 // Unlike create-scene, this command's target folder isn't a scaffold-free
 // destination -- it's the story's own already-cloned submodule root (a lean

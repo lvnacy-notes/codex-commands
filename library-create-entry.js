@@ -1,6 +1,6 @@
-import { EntryModal } from '../../codex/module.library/lib/modals/EntryModal.js';
-import { Entry } from '../../codex/module.library/lib/objects/Entry.js';
-import { Log } from '../../codex/utils/logger.js';
+import { EntryModal } from '../.codex/module.library/lib/modals/EntryModal.js';
+import { Entry } from '../.codex/module.library/lib/objects/Entry.js';
+import { Log } from '../.codex/utils/logger.js';
 
 const REQUIRED_CITATION_FIELDS = ['entryTerm', 'referenceWork'];
 

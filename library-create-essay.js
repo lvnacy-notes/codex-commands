@@ -1,6 +1,6 @@
-import { EssayModal } from '../../codex/module.library/lib/modals/EssayModal.js';
-import { Essay } from '../../codex/module.library/lib/objects/Essay.js';
-import { Log } from '../../codex/utils/logger.js';
+import { EssayModal } from '../.codex/module.library/lib/modals/EssayModal.js';
+import { Essay } from '../.codex/module.library/lib/objects/Essay.js';
+import { Log } from '../.codex/utils/logger.js';
 
 const REQUIRED_CITATION_FIELDS = ['authors', 'year'];
 

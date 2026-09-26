@@ -1,6 +1,6 @@
-import { MonographModal } from '../../codex/module.library/lib/modals/MonographModal.js';
-import { Monograph } from '../../codex/module.library/lib/objects/Monograph.js';
-import { Log } from '../../codex/utils/logger.js';
+import { MonographModal } from '../.codex/module.library/lib/modals/MonographModal.js';
+import { Monograph } from '../.codex/module.library/lib/objects/Monograph.js';
+import { Log } from '../.codex/utils/logger.js';
 
 const REQUIRED_CITATION_FIELDS = ['authors', 'year'];
 

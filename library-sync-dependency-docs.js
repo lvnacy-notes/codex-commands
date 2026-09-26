@@ -1,4 +1,4 @@
-import { Log } from '../../codex/utils/logger.js';
+import { Log } from '../.codex/utils/logger.js';
 
 const LIBRARY_SOURCE_FOLDER = '.obsidian/apparatus/library';
 const TARGET_DOCUMENT_PATH = 'Codex/Library Module/Library Module.md';

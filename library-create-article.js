@@ -1,6 +1,6 @@
-import { ArticleModal } from '../../codex/module.library/lib/modals/ArticleModal.js';
-import { Article } from '../../codex/module.library/lib/objects/Article.js';
-import { Log } from '../../codex/utils/logger.js';
+import { ArticleModal } from '../.codex/module.library/lib/modals/ArticleModal.js';
+import { Article } from '../.codex/module.library/lib/objects/Article.js';
+import { Log } from '../.codex/utils/logger.js';
 
 const REQUIRED_CITATION_FIELDS = [
     'authors',

@@ -1,7 +1,7 @@
-import { DefinitionModal } from '../../codex/module.library/lib/modals/DefinitionModal.js';
-import { Definition } from '../../codex/module.library/lib/objects/Definition.js';
-import { resolveLibraryNote } from '../../codex/module.library/lib/controls/resolve-library.js';
-import { Log } from '../../codex/utils/logger.js';
+import { DefinitionModal } from '../.codex/module.library/lib/modals/DefinitionModal.js';
+import { Definition } from '../.codex/module.library/lib/objects/Definition.js';
+import { resolveLibraryNote } from '../.codex/module.library/lib/controls/resolve-library.js';
+import { Log } from '../.codex/utils/logger.js';
 
 export function buildInvokeCommand(app) {
 	return {

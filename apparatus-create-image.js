@@ -1,6 +1,6 @@
-const { ImageModal } = await requireAsync('../../codex/lib/modals/ImageModal.js');
-const { Image } = await requireAsync('../../codex/lib/objects/Image.js');
-const { Log } = await requireAsync('../../codex/utils/logger.js');
+const { ImageModal } = await requireAsync('../.codex/lib/modals/ImageModal.js');
+const { Image } = await requireAsync('../.codex/lib/objects/Image.js');
+const { Log } = await requireAsync('../.codex/utils/logger.js');
 
 export async function buildInvokeCommand(app) {
 	return {
