@@ -1,5 +1,5 @@
-import { Glossary, buildGlossaryBaseContent } from '../.codex/module.library/lib/objects/Glossary.js';
-import { resolveLibraryFolder, resolveLibraryNote } from '../.codex/module.library/lib/controls/resolve-library.js';
+import { Glossary, buildGlossaryBaseContent } from '../.codex/module.library/objects/Glossary.js';
+import { resolveLibraryFolder, resolveLibraryNote } from '../.codex/module.library/controls/resolve-library.js';
 import { Log } from '../.codex/utils/logger.js';
 
 // Backfills a Glossary note, its glossary/ folder, and its companion .base

@@ -1,5 +1,5 @@
-import { ReviewModal } from '../.codex/module.library/lib/modals/ReviewModal.js';
-import { Review } from '../.codex/module.library/lib/objects/Review.js';
+import { ReviewModal } from '../.codex/module.library/modals/ReviewModal.js';
+import { Review } from '../.codex/module.library/objects/Review.js';
 import { Log } from '../.codex/utils/logger.js';
 
 const REQUIRED_CITATION_FIELDS = [

@@ -1,5 +1,5 @@
-import { PeriodicalModal } from '../.codex/module.library/lib/modals/PeriodicalModal.js';
-import { Periodical } from '../.codex/module.library/lib/objects/Periodical.js';
+import { PeriodicalModal } from '../.codex/module.library/modals/PeriodicalModal.js';
+import { Periodical } from '../.codex/module.library/objects/Periodical.js';
 import { Log } from '../.codex/utils/logger.js';
 
 export function buildInvokeCommand(app) {

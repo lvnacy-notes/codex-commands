@@ -1,7 +1,7 @@
-import { Story, sceneTemplateSuffixForStage } from '../.codex/module.creative/lib/objects/Story.js';
-import { StoryModal } from '../.codex/module.creative/lib/modals/StoryModal.js';
-import { Manuscript } from '../.codex/module.creative/lib/objects/Manuscript.js';
-import { StoryArchive } from '../.codex/module.creative/lib/objects/StoryArchive.js';
+import { Story, sceneTemplateSuffixForStage } from '../.codex/module.creative/objects/Story.js';
+import { StoryModal } from '../.codex/module.creative/modals/StoryModal.js';
+import { Manuscript } from '../.codex/module.creative/objects/Manuscript.js';
+import { StoryArchive } from '../.codex/module.creative/objects/StoryArchive.js';
 import { getPriorStage } from '../.codex/module.creative/core/manuscriptPipelines.js';
 import { Log } from '../.codex/utils/logger.js';
 
